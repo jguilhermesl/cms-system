@@ -1,0 +1,31 @@
+.postsContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+    margin: 2rem auto 0 auto;
+    max-width: 60vw;
+}
+
+.buttonsPaginations {
+    display: flex;
+    justify-content: space-between;
+    width: 60vw;
+    margin: 0 auto;
+
+    div {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 2rem;
+    }
+
+    button {
+        background: var(--blue-900);
+        border-radius: 3px;
+
+        svg {
+            font-size: 1.7rem;
+        }
+    }
+}
