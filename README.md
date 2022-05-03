@@ -1,34 +1,77 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# WebSite institucional com uso de CMS
 
-## Getting Started
+<img src="./public/images/images.png" />
+Link da aplicação: <a target="_blank" href="https://jgsl-board.netlify.app/">https://jgsl-board.netlify.app/
+</a>
 
-First, run the development server:
+### 💼 Ajustes e alterações
+
+> O projeto foi finalizado.
+
+- [x] Componente Header
+- [x] Page Home 
+- [x] Componente Footer 
+- [x] Page Posts
+- [x] Configuração e Implementação do CMS
+- [x] Page Post Único
+- [x] Paginação dos Posts
+- [x] Page Board/Id
+- [x] Page Sobre
+- [x] Configuração e Implementação do CMS
+- [x] Estilização com SASS
+
+### 📁 Páginas do projeto
+
+- **Home**: página estilo landing page, podendo ter suas informações alteradas no Prismic.
+- **Posts**: lista de posts, onde o usuário pode adicionar, remover, excluir e visualizar os posts na Dashboard do Prismic.
+- **Inspect**: visualização do Post por meio do UID.
+- **About**: página que tem informações sobre a empresa do site.
+
+### 👨‍💻 Tecnologias
+Tecnologias usadas no projeto:
+
+<ul>
+    <li>HTML</li>
+    <li>SASS</li>
+    <li>TypeScript</li>
+    <li>NextJS</li>
+    <li>PrismicIO</li>
+    <li>React Icons</li>
+</ul>
+
+### 💼 Como o projeto funciona
+
+O projeto consiste num site institucional para alguma empresa/negócio, onde o Administrador pode adicionar informações conforme seu desejo. As informações podem ser alteradas na Dashboard do PrismicIO.
+
+### 🤝 Colaborador
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="#">
+        <img src="./public/images/gui-foto.png" width="100px;" alt="Foto do João Guilherme no GitHub"/><br>
+        <sub>
+          <b>João Guilherme</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
+
+### :closed_book: Requisitos ##
+
+Depois de iniciar :checkered_flag:, você precisa ter o  [Git](https://git-scm.com) e o [Node](https://nodejs.org/en/) instalados.
+
+## :checkered_flag: Iniciar ##
 
 ```bash
-npm run dev
-# or
-yarn dev
+# Clonar o projeto
+$ git clone https://github.com/jguilhermesl/cms-system
+# Acesse
+$ cd board-app
+# Instalar dependências
+$ yarn ou npm 
+# Rodar o projeto
+$ npm run dev ou yarn dev
+# O servidor será inicializado em <http://localhost:3000>
 ```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
-
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
-
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.

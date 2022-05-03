@@ -30,7 +30,6 @@ interface ContentProps{
 }
 
 export default function Home({ content }: ContentProps) {
-  console.log(content)
   return (
     <>
       <Head>

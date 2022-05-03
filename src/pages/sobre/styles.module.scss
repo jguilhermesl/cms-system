@@ -1,0 +1,57 @@
+.aboutContent {
+    display: flex;
+    width: 90vw;
+    margin: 2.5rem auto 0 auto;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+
+    @media only screen and (max-width: 1000px ) {
+        flex-direction: column-reverse;
+    }
+}
+
+.infoAbout {
+    width: 45%;
+    color: var(--white);
+
+    h1 {
+        font-size: 2.5rem;
+        margin-bottom: 1rem;
+    }
+
+    span {
+        font-size: 0.82rem;
+    }
+
+    .socialMedias {
+        margin-top: 2rem;
+        display: flex;
+        justify-content: left;
+        align-items: center;
+        gap: 1rem;
+
+        svg {
+            font-size: 1.5rem;
+            color: var(--blue-900);
+            transition: 0.4s;
+            cursor: pointer;
+
+            &:hover {
+                color: var(--white)
+            }
+        }
+    }
+
+    @media only screen and (max-width: 1000px ) {
+        width: 100%;
+    }
+}
+
+.imgAbout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}

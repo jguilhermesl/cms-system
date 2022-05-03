@@ -27,7 +27,7 @@ export default function Post({ post }: PostProps) {
             </Head>
             <main className={styles.contentPost}>
                 <h1>{post.title}</h1>
-                <Image src={post.banner} width={600} height={300} alt={post.title} />
+                <Image src={post.banner} width={600} height={350} alt={post.title} />
                 <time>{post.updatedAt}</time>
                 <div className={styles.description} dangerouslySetInnerHTML={{ __html: post.description }}></div>
             </main>
