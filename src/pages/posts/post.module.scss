@@ -1,0 +1,26 @@
+.contentPost {
+    max-width: 65vw;
+    margin: 1rem auto;
+    display: flex;
+    flex-direction: column;
+    color: var(--white);
+    gap: 10px;
+
+    time {
+        color: var(--gray-100)
+    }
+}
+
+.description {
+    text-align: justify;
+
+    h3 {
+        font-size: 1.6rem;
+        font-weight: 700;
+    }
+
+    p {
+        font-size: 1rem;
+        list-style: none;
+    }
+}
