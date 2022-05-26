@@ -1,7 +1,7 @@
 # WebSite institucional com uso de CMS
 
 <img src="./public/images/82A8701A-AC27-4852-9E5C-7757738665E2.jpeg" />
-Link da aplicação: <a target="_blank" href="https://jgsl-cms.netlify.app/">https://jgsl-board.netlify.app/
+Link da aplicação: <a target="_blank" href="https://jgsl-cms.netlify.app/">https://jgsl-cms.netlify.app/
 </a>
 
 ### 💼 Ajustes e alterações
